@@ -1,16 +1,211 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "Mario",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://i.ytimg.com/vi/INk1W8OujQI/maxresdefault.jpg",
+      "body": "Mario is an all-around fighter who uses his wide variety of techniques to respond to any situation. In Super Smash Bros. Ultimate, he shows up in his Wedding tux and his Builder outfit, and Cappy even makes an appearance!",
+      "createDate": "2018/06/18",
+      "likes": 12,
+      "author": 3,
+      "tags": [1, 6]
+    },
+    {
+      "id": 2,
+      "title": "Zelda",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://media.redadn.es/imagenes/super-smash-bros-ultimate-nintendo-switch_323927.jpg",
+      "body": "You might recognize Zelda's look from The Legend of Zelda: A Link Between Worlds game. In battle she uses magical moves to reflect and teleport, and for her Final Smash, she seals her opponents away in the Triforce of Wisdom. If an opponent has 100% damage or more, they will be instantly KO'd!",
+      "createDate": "2018/11/20",
+      "likes": 2,
+      "author": 1,
+      "tags": [1, 2]
+    },
+    {
+      "id": 3,
+      "title": "Palutena",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://www.nintenderos.com/wp-content/uploads/2018/10/super-smash-bros.-ultimate-3.jpg",
+      "body": "With her wings and staff, this goddess's attacks cover a wide range. With her up smash, neutral special, and side special, she can create a ranged attack in almost every direction except for directly beneath her! Keep the pressure on your opponents from a distance with ranged attacks!",
+      "createDate": "2018/10/18",
+      "likes": 3,
+      "author": "3",
+      "tags": [2, 3]
+    },
+    {
+      "id": 4,
+      "title": "Cloud",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://www.nintenderos.com/wp-content/uploads/2018/10/Final-Fantasy-VII.jpg",
+      "body": "He's the protagonist of Final Fantasy VII. You can also select his Advent Children outfit. Charging up his Limit Gauge increases his special move abilities! Land a powerful hit!. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque massa nec malesuada interdum.",
+      "createDate": "2018/10/17",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "id": 5,
+      "title": "Inkling",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://i.ytimg.com/vi/O4-7-bJWUsc/maxresdefault.jpg",
+      "body": "Attacks with a variety of weapons. Covering opponents with ink leads to more and more damage—plus these Inklings are really fashionable! Good news: The new fighters, Inkling and Ridley, have Super Smash Bros. series amiibo figures on the way! #SmashBros",
+      "createDate": "2018/06/12",
+      "likes": 7,
+      "author": 2,
+      "tags": [2, 3, 4, 6]
+    },
+    {
+      "id": 6,
+      "title": "Zero Suit Samus",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://i.ytimg.com/vi/Y4PTxiq11Fk/maxresdefault.jpg",
+      "body": "Although not as powerful as Samus, her speed is exceptional! Her Paralyzer not only has the ability to stun opponents, but it can also turn into a whip. For her Final Smash, she dons her suit and fires a powerful laser!",
+      "createDate": "2018/10/28",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "id": 7,
+      "title": "Link",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://i.ytimg.com/vi/kfeUdBi67G4/maxresdefault.jpg",
+      "body": "Link has been redesigned to match his appearance in The Legend of Zelda: Breath of the Wild. He can now pick up arrows he's fired, and his bombs have been upgraded to remote bombs, so you can set them off when the timing is just right!",
+      "createDate": "2018/06/20",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "id": 9,
+      "title": "Toon Link",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://www.nintenderos.com/wp-content/uploads/2018/09/Super-Smash-Bros.-Ultimate-1.jpg",
+      "body": "He's smaller and faster than Link. His bombs explode with a unique anime-style. For his Final Smash, he emits light from his left hand and any opponents hit by it are trapped in the Triforce, subject to a punishing gauntlet of attacks. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "createDate": "2018/09/10",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "id": 10,
+      "title": "Fox",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://i.ytimg.com/vi/Arw6c0dJHAE/maxresdefault.jpg",
+      "body": "He can overwhelm his opponents with his quick movements, and his specials don't leave him open for counterattacks. His costume and voice have been redone to match his appearance in Star Fox Zero. This Fox is brand new! Come on!",
+      "createDate": "2018/10/03",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "id": 11,
+      "title": "Wolf",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://www.nintenderos.com/wp-content/uploads/2018/08/Super-Smash-Bros.-Ultimate-6.jpg",
+      "body": "The leader of the Star Wolf mercenary team makes his grand return after 10 years! He puts his sharp claws to good use in wild attacks, and his Final Smash is an all-out attack by Team Star Wolf! If Fox or Falco is in the battle, you may hear a unique line of dialog.",
+      "createDate": "2018/08/30",
+      "likes": 7,
+      "author": 3,
+      "tags": [4, 6, 3, 2]
+    },
+    {
+      "title": "Peach",
+      "subTitle": "Super Smash Bros Ultimate",
+      "image": "https://www.nintenderos.com/wp-content/uploads/2018/08/Super-smash-bros-ultimate-1.jpg",
+      "body": "THE super princess. Watch out for her powerful kicks while she's airborne. Using her down special, she picks vegetables and throws them at her opponents. Sometimes she even gets items...like a Bob-omb!",
+      "createDate": "2019/07/12",
+      "likes": 1,
+      "author": 2,
+      "tags": [1, 2, 3],
+      "id": 12
     }
   ],
-  "comments" : [
+  "tags": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "Animals",
+      "slug": "animals"
+    },
+    {
+      "id": 2,
+      "name": "Nature",
+      "slug": "nature"
+    },
+    {
+      "id": 3,
+      "name": "Food",
+      "slug": "food"
+    },
+    {
+      "id": 4,
+      "name": "Life style",
+      "slug": "life-style"
+    },
+    {
+      "id": 5,
+      "name": "Travel",
+      "slug": "travel"
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "slug": "sports"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Test comment on post #1",
+      "postId": 1,
+      "user": 1
+    },
+    {
+      "id": 2,
+      "comment": "Test comment on post #1",
+      "postId": 1,
+      "user": 2
+    },
+    {
+      "id": 3,
+      "comment": "Test comment on post #2",
+      "postId": 2,
+      "user": 3
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastName": "Wick"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "lastName": "Cena"
+    },
+    {
+      "id": 3,
+      "name": "Bruce",
+      "lastName": "Wayne"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Anakin",
+      "lastName": "Skywalker"
+    },
+    {
+      "id": 2,
+      "name": "Padme",
+      "lastName": "Amidala"
+    },
+    {
+      "id": 3,
+      "name": "Obi-Wan",
+      "lastName": "Kenobi"
     }
   ]
 }
